@@ -23,7 +23,7 @@ class Scraper
   end
   
   def self.scrape_profile_page(profile_url)
-    doc = Nokogiri::HTML(open("https://learn-co-curriculum.github.io/student-scraper-test-page/index.html"))
+    doc = Nokogiri::HTML(open(https://learn-co-curriculum.github.io/student-scraper-test-page/index.html))
     
     link = doc.css('.social-icon-container a').map do |node|
       node.attr('href')
