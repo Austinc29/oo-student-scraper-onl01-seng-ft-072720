@@ -29,7 +29,7 @@ class Scraper
       node.attr('href')
     end
     
-    binding.pry
+   # binding.pry
     #icons
 
 
