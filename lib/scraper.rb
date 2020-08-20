@@ -28,8 +28,5 @@ class Scraper
     link = doc.css('.social-icon-container a').map do |node|
       node.attr('href')
     end
-    
-    binding.pry
-  end
 
 end
